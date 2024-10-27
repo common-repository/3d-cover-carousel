@@ -1,0 +1,176 @@
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#wrap {
+/* fixed width, centered in viewport */
+	width: 980px;
+	left: -490px;
+	margin-left: 50%;
+	position: relative;
+}
+#showcase img {
+    cursor: pointer;
+}
+#item-title {
+    color: #F31414;
+    font-size: 29px;
+    letter-spacing: 0.13em;
+    text-shadow: 1px 1px 6px #C72B2B;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 22px;
+}
+.nav {
+    text-align: center;
+}
+.nav > button {
+    width: 64px;
+    height: 36px;
+    color: #666;
+    font: bold 16px arial;
+    text-decoration: none;
+    text-align: center;
+    margin: 5px;
+    text-shadow: 0px 1px 0px #f5f5f5;
+    background: #f6f6f6;
+    border: solid 2px rgba(0, 0, 0, 0.4);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 9px 1px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0 0 9px 1px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 9px 1px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+.nav > button:active,
+.nav > button.down {
+    background: #dfdfdf;
+    border: solid 2px rgba(0, 0, 0, 0.6);
+    box-shadow: none;
+}
+#get {
+    font-size: 20px;
+    text-align: center;
+}
+#download {
+    margin: 8px auto;
+    margin-top: 12px;
+    display: block;
+}
+#license {
+    font-size: 18px;
+    text-align: center;
+    margin: 0;
+}
+#share {
+    position: absolute;
+    left: 4px;
+    top: 478px;
+}
+.fb-like {
+    vertical-align: top;
+}
+.twitter-share-button {
+    width: 84px !important;
+    margin-left: 8px;
+}
+#credits {
+    color: #c9c9c9;
+    padding: 10px;
+    border: 2px #999 dashed;
+    position: absolute;
+    right: 0;
+    bottom: 83px;
+}
+#credits ul {
+    font-size: 14px;
+    list-style-type: none;
+    padding-left: 2px;
+    margin: 2px 0;
+}
+#credits .author {
+    color: white;
+}
+.image_error{color:red;}
+.successmsg{background:#E2F3DA ;border: 1px solid #9ADF8F;color:#556652 !important;padding:8px 8px 8px 36px;text-align:left;margin:5px;margin-left: 0px;margin-top: 30px;width:505px !important;}
+.errormsg{background:#FFCECE ;border: 1px solid #DF8F8F;color:#665252 !important;padding:8px 8px 8px 36px; text-align:left;margin:5px;margin-left: 0px;margin-top: 30px;width:505px !important;}
+.arrowleft{vertical-align: middle !important;}
+.arrowright{vertical-align: middle !important;;}
+.mainTable{background:#ECF5DE;width:auto;border:none}
+.mainTable td{border:none}
+.mainSliderDiv{}
+.sliderUl{}
+.sliderimgLi{list-style-type:none !important;;list-style:none !important;padding:0px !important;margin:0px !important;}
+.sliderimgLi img{background: white !important;border: 1px solid #CCCCCC !important;padding: 12px !important;;margin: 7px !important;}
+.printCode{background: lightYellow none repeat scroll 0 0 !important;border: 1px inset orange !important;height: 36px !important;margin: 10px !important;overflow: auto !important;padding: 6px !important;text-align: left !important;color: black !important;width:90% !important;}
+#gridTbl{width: 100%;}
+.table{width:100%;margin-bottom:18px;}.table th,.table td{padding:8px;line-height:18px;text-align:left;vertical-align:top;border-top:1px solid #E1E1E1}
+.table th{font-weight:bold;}
+.table thead th{vertical-align:bottom;}
+.table thead:first-child tr th,.table thead:first-child tr td{border-top:0;}
+.table tbody+tbody{border-top:2px solid #ddd;}
+.table-condensed th,.table-condensed td{padding:4px 5px;background-color: #ffffff;}
+.table-bordered{border:1px solid #ddd;border-collapse:separate;*border-collapse:collapsed;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;}.table-bordered th+th,.table-bordered td+td,.table-bordered th+td,.table-bordered td+th{border-left:1px solid #E1E1E1;background-color: #ffffff;}
+.table-bordered thead:first-child tr:first-child th,.table-bordered tbody:first-child tr:first-child th,.table-bordered tbody:first-child tr:first-child td{border-top:0;}
+.table-bordered thead:first-child tr:first-child th:first-child,.table-bordered tbody:first-child tr:first-child td:first-child{-webkit-border-radius:4px 0 0 0;-moz-border-radius:4px 0 0 0;border-radius:4px 0 0 0;}
+.table-bordered thead:first-child tr:first-child th:last-child,.table-bordered tbody:first-child tr:first-child td:last-child{-webkit-border-radius:0 4px 0 0;-moz-border-radius:0 4px 0 0;border-radius:0 4px 0 0;}
+.table-bordered thead:last-child tr:last-child th:first-child,.table-bordered tbody:last-child tr:last-child td:first-child{-webkit-border-radius:0 0 0 4px;-moz-border-radius:0 0 0 4px;border-radius:0 0 0 4px;}
+.table-bordered thead:last-child tr:last-child th:last-child,.table-bordered tbody:last-child tr:last-child td:last-child{-webkit-border-radius:0 0 4px 0;-moz-border-radius:0 0 4px 0;border-radius:0 0 4px 0;}
+.table-striped tbody tr:nth-child(odd) td,.table-striped tbody tr:nth-child(odd) th{background-color:#f9f9f9;}
+.table tbody tr:hover td,.table tbody tr:hover th{background-color:#f5f5f5;}
+.alignCenter{text-align: center;}
+@media only screen and (max-width: 800px) {
+/* Force table to not be like tables anymore */
+#no-more-tables table, 
+#no-more-tables thead, 
+#no-more-tables tbody, 
+#no-more-tables th, 
+#no-more-tables td, 
+#no-more-tables tr { 
+	display: block; 
+
+}
+
+/* Hide table headers (but not display: none;, for accessibility) */
+#no-more-tables thead tr { 
+	position: absolute;
+	top: -9999px;
+	left: -9999px;
+}
+
+#no-more-tables tr { border: 1px solid #ccc; }
+
+#no-more-tables td { 
+	/* Behave  like a "row" */
+	border: none;
+	border-bottom: 1px solid #eee; 
+	position: relative;
+	padding-left: 50%; 
+	white-space: normal;
+	text-align:left;      
+}
+
+#no-more-tables td:before { 
+	/* Now like a table header */
+	position: absolute;
+	/* Top/left values mimic padding */
+	top: 6px;
+	left: 6px;
+	width: 45%; 
+	padding-right: 10px; 
+	white-space: nowrap;
+	text-align:left;
+	font-weight: bold;
+}
+
+/*
+Label the data
+*/
+#no-more-tables td:before { content: attr(data-title); }
+}
